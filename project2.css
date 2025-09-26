@@ -1,0 +1,201 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+html,body{
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+.main-container{
+  width: 100%;
+  background-color: red;
+  color: white;
+  display: flex;
+  justify-content: start;
+  position: fixed;
+  z-index: +1;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+@media screen and (max-width: 380px){
+  .main-container{
+    width: 100%;
+  }
+  
+}
+.main-container>.item{
+    width: 100px;
+    text-align: center;
+    padding: 20px;
+    font-size: 1.2rem;
+}
+@media screen and (max-width: 380px) {
+  .main-container > .item {
+    width: 50px;
+    font-size: 1rem;
+    padding: 10px;
+  }
+}
+.main-container>.items{
+    top: 0px;
+    width: 100px;
+    text-align: center;
+    padding: 20px;
+    font-size: 1.2rem;
+    background-color: white;
+    color: black;
+}
+.main-container>.item:hover{
+  cursor: pointer;
+  background-color: white;
+  color: black;
+}
+.main-container>.items:hover{
+  cursor: pointer;
+  background-color: gray;
+}
+.startpage{
+  width: 100%;
+  height: 60%;
+  padding: 20px;
+  margin-top: 3.5%;
+  background-color: red;
+  position: relative;
+}
+.text1{
+  color: white;
+  padding: 20px;
+  position: absolute;
+  font-size: 4rem;
+  top: 10%;
+  left: 35%;
+}
+.text2{
+  color: white;
+  padding: 20px;
+  position: absolute;
+  font-size: 2rem;
+  top: 33%;
+  left: 38%
+}
+.text3{
+  background-color: black;
+  padding: 20px;
+  color: white;
+  position: absolute;
+  font-size: 2rem;
+  top: 54%;
+  left: 40%
+}
+.text3:hover{
+  cursor: pointer;
+  background-color: grey;
+}
+.main{
+  display: inline-block;
+}
+.big-container{
+    width: 100%;
+    height: 70%;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+  }
+.para1-container{
+    width: 50%;  
+    padding: 1.4rem;
+}
+.para1-container h1{
+  padding: 1rem;
+
+}
+.para1-container h4{
+  padding: 1rem ;
+}
+.para1-container p{
+  padding: 1rem;
+  color: gray;
+}
+.image-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image-container i{
+  position: static;
+  font-size: 12rem;
+  color: red;
+}
+
+.big2-container{
+    width: 100%;
+    height: 70%;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(128, 128, 128, 0.118);
+}
+.image2-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image2-container i{
+  position: static;
+  font-size: 12rem;
+  color: red;
+}
+
+.para2-container{
+    width: 50%;
+    padding: 1.4rem;  
+}
+.para2-container h1{
+  padding: 1rem;
+}
+.para2-container h4{
+  padding: 1rem;
+  
+}
+.para2-container p{
+  padding: 1rem;
+  color: gray;
+}
+.quote-container{
+  width: 100%;
+  height: 20%;
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.quote-container h1{
+  font-size: 2rem;
+  position: static;
+}
+.icons{
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.8rem;
+  color: gray;
+}
+.para{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  color: grey;
+}
+.para>p>a{
+  color: grey;
+}
